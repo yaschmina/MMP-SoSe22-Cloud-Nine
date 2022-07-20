@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float force = 14f;
     [SerializeField] private LayerMask ground; // Ganze Ebene
 
-    private enum StateOfMovement { standing, running, jumping, falling, fallingFront } // standing = idle
+    private enum StateOfMovement { standing, running, jumping, falling, fallingFront, looseLife } // standing = idle
 
 
     // Start is called before the first frame update

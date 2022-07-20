@@ -7,6 +7,8 @@ public class PlayerDeath : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rigidbody;
+    [SerializeField] private int lives = 3;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -17,7 +19,14 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BananaPeel"))
         {
-            Die();
+            lives--;
+            Debug.Log("lives: " + lives);
+            animator.SetTrigger("loose_life_trigger");
+
+            if (lives < 0)
+            {
+                Die();
+            }
         }
     }
 
@@ -27,9 +36,9 @@ public class PlayerDeath : MonoBehaviour
         animator.SetTrigger("death_trigger");
     }
 
-    private void RestartJumpNRunLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    //private void RestartJumpNRunLevel() // funktioniert momentan wsl nicht so ganz weil ich das mit den 3 Leben eingebaut hab
+    //{
+     //   SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
 
 }
