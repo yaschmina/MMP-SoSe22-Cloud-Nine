@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveWithObject : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision collision) // Es wird geschaut, ob die Wolke mit einem anderen Objekt kollidiert
+    private void OnCollisionEnter2D(Collision2D collision) // Es wird geschaut, ob die Wolke mit einem anderen Objekt kollidiert
     {
         if (collision.gameObject.name == "Player") // Es wird geschaut, ob dieses andere Objekt der "Player" ist -> wichtig: gleicher Name wie in Hierarchie
         {
