@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 7f;
     [SerializeField] private float force = 14f;
     [SerializeField] private LayerMask ground; // Ganze Ebene
+    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource walkSound;
 
     private enum StateOfMovement { standing, running, jumping, falling, fallingFront, looseLife } // standing = idle
 
@@ -51,6 +53,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && PlayerIsOnTheGround())
         {
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, force);
+            jumpSound.Play();
         }
 
         UpdateAnimation();
@@ -66,11 +69,13 @@ public class PlayerController : MonoBehaviour
         {
             movementState = StateOfMovement.running;
             spriteRenderer.flipX = false;
+            walkSound.Play();
         }
         else if (moveHorizontal < 0f) // Rennen nach links
         {
             movementState = StateOfMovement.running;
             spriteRenderer.flipX = true;
+            walkSound.Play();
         }
         else // Stehen
         {

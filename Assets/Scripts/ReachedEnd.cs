@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ReachedEnd : MonoBehaviour
 {
-    // private AudioSource finishSound
+    private AudioSource win;
     private bool levelCompleted = false;
 
     void Start()
     {
-       // finishSound = GetComponent<AudioSource>(); 
+       win = GetComponent<AudioSource>(); 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,13 +18,15 @@ public class ReachedEnd : MonoBehaviour
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
             levelCompleted = true; // Sorgt dafür, dass der Sound nur 1x spielt
-            // finishSound.Play();
+            win.Play();
             Invoke("LevelCompleted", 2f); // sorgt für Verzögerung beim callen von LevelCompleted()
+            Debug.Log("Gewonnen!");
         }
     }
 
-    private void LevelCompleted()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+    // Soll das nächste Level anschalten eig
+    //private void LevelCompleted()
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    //}
 }

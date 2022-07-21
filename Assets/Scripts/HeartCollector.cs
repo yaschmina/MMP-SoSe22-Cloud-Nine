@@ -8,6 +8,7 @@ public class HeartCollector : MonoBehaviour
     private int collectedHearts = 0;
 
     [SerializeField] private Text heartText;
+    [SerializeField] private AudioSource collectedHeartSound;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,8 +16,9 @@ public class HeartCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             collectedHearts++;
+            collectedHeartSound.Play();
             Debug.Log("Hearts: " + collectedHearts);
-            heartText.text = "Hearts: " + collectedHearts;
+            heartText.text = "Hearts: " + collectedHearts + " /10";
         }
     }
 }
