@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 7f;
     [SerializeField] private float force = 14f;
     [SerializeField] private LayerMask ground; // Ganze Ebene
+    [SerializeField] private AudioSource jumpSound;
 
     private enum StateOfMovement { standing, running, jumping, falling, fallingFront, looseLife } // standing = idle
 
@@ -51,6 +52,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && PlayerIsOnTheGround())
         {
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, force);
+            jumpSound.Play();
         }
 
         UpdateAnimation();
