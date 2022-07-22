@@ -53,9 +53,9 @@ public class PlayerDeath : MonoBehaviour
         animator.SetTrigger("death_trigger");
     }
 
-    private void RestartJumpNRunLevel() 
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    //private void RestartJumpNRunLevel() 
+    //{
+    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //}
 
 }
