@@ -32,13 +32,13 @@ public class QuizManager : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene(SceneManagement.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
      void GameOver ()
     {
         Quizpanel.SetActive(false);
         GoPanel.SetActive(true);
-        ScoreTxt.text =  score | "/" | TotalQuestion;
+        ScoreTxt.text =  score + "/" + TotalQuestion;
     }
     public void correct()
 

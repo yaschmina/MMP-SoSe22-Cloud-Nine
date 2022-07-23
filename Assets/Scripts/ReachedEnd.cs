@@ -8,6 +8,7 @@ public class ReachedEnd : MonoBehaviour
     private AudioSource win;
     private bool levelCompleted = false;
 
+
     void Start()
     {
        win = GetComponent<AudioSource>(); 
@@ -24,9 +25,9 @@ public class ReachedEnd : MonoBehaviour
         }
     }
 
-    // Soll das nächste Level anschalten eig
-    //private void LevelCompleted()
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    //}
+    // Soll das nächste Level anschalten
+    public void LevelCompleted()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
