@@ -1206,8 +1206,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2604,30 +2604,39 @@ MonoBehaviour:
       have been used by captains of sailing ships to cross the world's oceans for
       centuries. "
     Answers:
-    - "Aren't those Mechanical Monsoons\u2026? No, I\u2019m an electrician! ?"
-    - "Aren't those Electrical Whirlwinds\u2026? No, I\u2019m an electrician! ?"
-    - "Aren't those Trade winds\u2026? No, I\u2019m an electrician! ?"
+    - "Aren't those Mechanical Monsoons\u2026? No, I\u2019m an electrician?"
+    - "Aren't those Electrical Whirlwinds\u2026? No, I\u2019m an electrician?"
+    - "Aren't those Trade winds\u2026? No, I\u2019m an electrician?"
     CorrectAnswer: 3
-  - Question: Oh wow, so I guess you know all about electricity and its power. Unbelievable
-      how powerful the average lightning strike is, isn't it?
+  - Question: Sorry, talking about the Trade Winds always excites me! Oh wow, so
+      I guess you know all about electricity and its power. Unbelievable how powerful
+      the average lightning strike is, isn't it?
     Answers:
     - "100 Million Volt and 100.000 ampere \u2013 pretty shocking indeed!"
     - "10.000 Volt and 500.000 ampere \u2013 quite electrifying!"
     - " 1 million volt and 5 million ampere \u2013 pretty shocking indeed!"
     CorrectAnswer: 1
-  - Question: '100 million volts and 100,000 amps - an insane number! Oh, the waitress
+  - Question: '100 million volts and 100,000 ampere - an insane number! Oh, the waitress
       already wants to bring us the bill, time passes quickly when you''re having
       fun! I''ll take care of it, don''t worry. Splitting is never good - especially
       when it''s storming. Splitting Storms! Now you know what I''m talking about,
       surely? '
     Answers:
-    - You bet, I know all about TBA
-    - You bet, I know all about TBA
-    - You bet, I know all about TBA
-    CorrectAnswer: 1
-  - Question: "Speaking of the devil: Looks like a storm is brewing, it\u2019s already
-      pouring heavily! Shoot, of course I don\u2019t have an umbrella with me. What
-      is the idiom again? It\u2019s raining\u2026."
+    - Yes, the phenomenon of a large air mass that rotates around a strong center
+      of low atmospheric pressure, counterclockwise in the Northern Hemisphere and
+      clockwise in the Southern Hemisphere as viewed from above. But why are we talking
+      about this?
+    - Yes, the phenomenon when a convective thunderstorm will appear to break in
+      two, with one side propagating to the left and the other to the right! But
+      why are we talking about this?
+    - Yes, the phenomenon when a violently rotating column of air that is in contact
+      with both the surface of the Earth and a cumulonimbus cloud or, in rare cases,
+      the base of a cumulus cloud. But why are we talking about this?
+    CorrectAnswer: 2
+  - Question: "Convective thunderstorms should be absolutely avoided! Speaking of
+      the devil: Looks like a storm is brewing, it\u2019s already pouring heavily!
+      Shoot, of course I don\u2019t have an umbrella with me. What is the idiom again?
+      It\u2019s raining\u2026."
     Answers:
     - Strings?
     - Cats and dogs?
