@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -436}
+  m_AnchoredPosition: {x: 0, y: -410.03555}
   m_SizeDelta: {x: 1500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16492110
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.5372549, b: 0.7137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.6509804}
-  m_EffectDistance: {x: 10, y: -10}
+  m_EffectDistance: {x: 14, y: -14}
   m_UseGraphicAlpha: 1
 --- !u!1 &181636582
 GameObject:
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -87.91498, y: -36.378662, z: -112.1673, w: -363.7862}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -990,6 +990,18 @@ MonoBehaviour:
     - Of course, I know the Scirocco! She must be as loud as the explosions that
       water geysers cause in Malta at summertime, after which she was named!
     CorrectAnswer: 1
+  - Question: 'Scirocco is as lively as the Mediterranean wind!  Oh yes, I also went
+      to the mechanic''s shop today to pick up my old-timer. Oh, care to guess the
+      model series? I''ll give you the following hint: "The ???, together with its
+      northern extension the North Atlantic Drift, is a warm and swift Atlantic ocean
+      ??? that originates in the ??? of Mexico and flows through the Straits of Florida
+      and up the eastern coastline of the United States then veers east near 36 latitude
+      (North Carolina)."'
+    Answers:
+    - "Obviously, that\u2019s the Volkswagen Golf series as in Gulf Stream!"
+    - "Obviously, that\u2019s the Ford Zephyr Golf series as in Zephyr Winds!"
+    - Obviously, that's the GMC Syclone series as in Cyclone Storms!
+    CorrectAnswer: 1
   - Question: The Volkswagen Golf is just great! However, I usually prefer to ride
       my bike because I love to be in nature. Check this out, I was able to observe
       and photograph these different types of clouds during my last vacation! *Takes
@@ -1013,18 +1025,6 @@ MonoBehaviour:
     - So you were there between October to March? I also want to go there at around
       that time, the aurora borealis are a wonderful natural spectacle!
     CorrectAnswer: 3
-  - Question: 'Scirocco is as lively as the Mediterranean wind!  Oh yes, I also went
-      to the mechanic''s shop today to pick up my old-timer. Oh, care to guess the
-      model series? I''ll give you the following hint: "The ???, together with its
-      northern extension the North Atlantic Drift, is a warm and swift Atlantic ocean
-      ??? that originates in the ??? of Mexico and flows through the Straits of Florida
-      and up the eastern coastline of the United States then veers east near 36 latitude
-      (North Carolina)."'
-    Answers:
-    - "Obviously, that\u2019s the Volkswagen Golf series as in Gulf Stream!"
-    - "Obviously, that\u2019s the Ford Zephyr Golf series as in Zephyr Winds!"
-    - Obviously, that's the GMC Syclone series as in Cyclone Storms!
-    CorrectAnswer: 1
   options:
   - {fileID: 1614025699}
   - {fileID: 1531957549}
@@ -1090,7 +1090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250}
+  m_AnchoredPosition: {x: 0, y: 275.96445}
   m_SizeDelta: {x: 1700, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545857686
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.5372549, b: 0.7137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.6509804}
-  m_EffectDistance: {x: 10, y: -10}
+  m_EffectDistance: {x: 14, y: -14}
   m_UseGraphicAlpha: 1
 --- !u!1 &705462919
 GameObject:
@@ -1827,7 +1827,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1540776049}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1993,7 +1993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179555421}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 593.38745, y: 265.38074, z: -660.1493}
+  m_LocalPosition: {x: 593.38745, y: 300, z: -660.1493}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2068,7 +2068,7 @@ RectTransform:
   - {fileID: 1531957550}
   - {fileID: 16492109}
   m_Father: {fileID: 1540776049}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2088,7 +2088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5372549, g: 0.3372549, b: 0.54901963, a: 1}
+  m_Color: {r: 0.5372549, g: 0.3372549, b: 0.54901963, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2143,7 +2143,7 @@ RectTransform:
   - {fileID: 705462920}
   - {fileID: 725426169}
   m_Father: {fileID: 1540776049}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2189,7 +2189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -256}
+  m_AnchoredPosition: {x: 0, y: -230.03555}
   m_SizeDelta: {x: 1500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531957551
@@ -2273,7 +2273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.5372549, b: 0.7137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2325,7 +2325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.6509804}
-  m_EffectDistance: {x: 10, y: -10}
+  m_EffectDistance: {x: 14, y: -14}
   m_UseGraphicAlpha: 1
 --- !u!1 &1540776048
 GameObject:
@@ -2357,6 +2357,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1623355841}
   - {fileID: 985531897}
   - {fileID: 1187507719}
   - {fileID: 1232015609}
@@ -2467,7 +2468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -76.000015}
+  m_AnchoredPosition: {x: 0, y: -50.03557}
   m_SizeDelta: {x: 1500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614025701
@@ -2551,7 +2552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.5372549, b: 0.7137255, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2603,8 +2604,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.6509804}
-  m_EffectDistance: {x: 10, y: -10}
+  m_EffectDistance: {x: 14, y: -14}
   m_UseGraphicAlpha: 1
+--- !u!1 &1623355840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623355841}
+  - component: {fileID: 1623355843}
+  - component: {fileID: 1623355842}
+  m_Layer: 0
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1623355841
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623355840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1540776049}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.000045776}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1623355842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623355840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: f9646fe565b51464aba785abf827bca5, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1623355843
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623355840}
+  m_CullTransparentMesh: 1
 --- !u!1 &1788802307
 GameObject:
   m_ObjectHideFlags: 0
