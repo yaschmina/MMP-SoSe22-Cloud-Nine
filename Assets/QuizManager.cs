@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
@@ -25,7 +26,8 @@ public class QuizManager : MonoBehaviour
     private void Start ()
     {
         TotalQuestion = QnA.Count;
-        Quizpanel.SetActive(false);
+
+        GoPanel.SetActive(false);
         generateQuestion();
 
     }
@@ -34,6 +36,7 @@ public class QuizManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
      void GameOver ()
     {
         Quizpanel.SetActive(false);
@@ -58,7 +61,6 @@ public class QuizManager : MonoBehaviour
 
 
     }
-
 
     void SetAnswers()
     {

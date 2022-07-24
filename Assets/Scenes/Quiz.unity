@@ -840,6 +840,10 @@ MonoBehaviour:
   - {fileID: 1212924129}
   currentQuestion: 0
   QuestionTxt: {fileID: 556211449}
+  ScoreTxt: {fileID: 0}
+  score: 0
+  Quizpanel: {fileID: 1381539275}
+  GoPanel: {fileID: 795432258}
 --- !u!4 &588728850
 Transform:
   m_ObjectHideFlags: 0
@@ -1498,7 +1502,7 @@ GameObject:
   - component: {fileID: 1490400314}
   - component: {fileID: 1490400316}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: SPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
