@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class DialogueManager : MonoBehaviour
@@ -64,6 +65,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue() {
 
     animator.SetBool("IsOpen", false);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
     }
 }
