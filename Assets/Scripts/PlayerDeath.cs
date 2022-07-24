@@ -30,7 +30,6 @@ public class PlayerDeath : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("DeathSquare"))
         {
-            //evtl methode für die drei Zeilen schreiben
             lives--;
             Debug.Log("lives: " + lives);
             looseLifeSound.Play();
@@ -39,11 +38,10 @@ public class PlayerDeath : MonoBehaviour
             rigidbody.MovePosition(point0);
 
         }
-        lifeCount.text = "My lifes:" + lives;
+        lifeCount.text = "My lives: " + lives;
         if (lives <= 0)
         {
             Die();
-            // Invoke("RestartJumpNRunLevel", 2f); // soll das restarten verzögern, funktioniert aber nicht
         }
     }
 
