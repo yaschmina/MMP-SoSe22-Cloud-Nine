@@ -15,9 +15,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Jump and Run 1.unity
     guid: 34ccb15c9ca24466dbcab405607dbbef
   - enabled: 1
+    path: Assets/Scenes/Dia1.unity
+    guid: 329680eb820bf4ca9bb250b7d80f886a
+  - enabled: 1
     path: Assets/Scenes/Quiz_SY.unity
     guid: f913379b8a77f48c9a59cac2be27c2bd
   - enabled: 1
-    path: Assets/Scenes/Quiz.unity
-    guid: d317b7d550aa04117a67e669104fcb90
+    path: Assets/Scenes/Dia2.unity
+    guid: 5be281710f72141b5807380cb5306d28
+  - enabled: 1
+    path: Assets/Scenes/Jump and Run 2.unity
+    guid: 14dac3b7bd5ec4a6bbeb53de1ce186aa
+  - enabled: 1
+    path: Assets/Scenes/Dia3.unity
+    guid: 4d160f35edf494c59a6f1e90d6258cb1
+  - enabled: 1
+    path: Assets/Scenes/Quiz2_SY.unity
+    guid: e105cd5eab4794b31b9987538a7019bf
+  - enabled: 1
+    path: Assets/Scenes/Dia4.unity
+    guid: 383772c1945ec41fe9db85227f9c589a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 1ef69270a1f1240a5af66171deb377d0
   m_configObjects: {}
