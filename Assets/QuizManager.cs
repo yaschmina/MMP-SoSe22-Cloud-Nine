@@ -51,6 +51,7 @@ public class QuizManager : MonoBehaviour
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
         
+        
     }
 
     public void wrong()
@@ -81,7 +82,9 @@ public class QuizManager : MonoBehaviour
     {
         if (QnA.Count > 0)
         {
-        currentQuestion = Random.Range(0, QnA.Count);
+        //currentQuestion = Random.Range(0, QnA.Count);
+
+        //currentQuestion = QnA.Count[i];
 
         QuestionTxt.text = QnA[currentQuestion].Question;
         SetAnswers();
