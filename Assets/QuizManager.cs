@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
@@ -25,20 +26,22 @@ public class QuizManager : MonoBehaviour
     private void Start ()
     {
         TotalQuestion = QnA.Count;
-        Quizpanel.SetActive(false);
+
+        GoPanel.SetActive(false);
         generateQuestion();
 
     }
 
     public void retry()
     {
-        SceneManager.LoadScene(SceneManagement.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
      void GameOver ()
     {
         Quizpanel.SetActive(false);
         GoPanel.SetActive(true);
-        ScoreTxt.text =  score | "/" | TotalQuestion;
+        ScoreTxt.text =  score + "/" + TotalQuestion;
     }
     public void correct()
 
@@ -58,7 +61,6 @@ public class QuizManager : MonoBehaviour
 
 
     }
-
 
     void SetAnswers()
     {

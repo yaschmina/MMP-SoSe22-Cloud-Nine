@@ -25,7 +25,7 @@ public class PlayerDeath : MonoBehaviour
             lives--;
             Debug.Log("lives: " + lives);
             looseLifeSound.Play();
-            animator.SetTrigger("loose_life_trigger"); // funktioniert momentan nicht
+            //animator.SetTrigger("loose_life_trigger"); // funktioniert momentan nicht
 
         }
         else if (collision.gameObject.CompareTag("DeathSquare"))
@@ -34,7 +34,7 @@ public class PlayerDeath : MonoBehaviour
             lives--;
             Debug.Log("lives: " + lives);
             looseLifeSound.Play();
-            animator.SetTrigger("loose_life_trigger"); // funktioniert momentan nicht
+            //animator.SetTrigger("loose_life_trigger"); // funktioniert momentan nicht
             Vector2 point0 = new Vector2(0.0f, 0.0f);
             rigidbody.MovePosition(point0);
 
@@ -51,6 +51,7 @@ public class PlayerDeath : MonoBehaviour
     {
         rigidbody.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death_trigger");
+        SceneManager.LoadScene(4); // ANPASSEN SZENENNUMMER
     }
 
     //private void RestartJumpNRunLevel() 
