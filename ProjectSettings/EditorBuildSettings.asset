@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 81fa260a6032e45e990512e2e2cfd3f4
+  - enabled: 1
+    path: Assets/Scenes/IntroScene_Y.unity
+    guid: e5ea3e31707294883a4c7a5b0a4e3cac
+  - enabled: 1
+    path: Assets/Scenes/Jump and Run 1.unity
+    guid: 34ccb15c9ca24466dbcab405607dbbef
+  - enabled: 1
     path: Assets/Scenes/Quiz_SY.unity
     guid: f913379b8a77f48c9a59cac2be27c2bd
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: d317b7d550aa04117a67e669104fcb90
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 81fa260a6032e45e990512e2e2cfd3f4
-  - enabled: 1
-    path: Assets/Scenes/Jump and Run 1.unity
-    guid: 34ccb15c9ca24466dbcab405607dbbef
   m_configObjects: {}
