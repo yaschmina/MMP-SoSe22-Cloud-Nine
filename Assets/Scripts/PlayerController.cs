@@ -15,15 +15,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float force = 14f;
     [SerializeField] private LayerMask ground; // Ganze Ebene
     [SerializeField] private AudioSource jumpSound;
-    [SerializeField] private AudioSource walkSound;
 
-    private enum StateOfMovement { standing, running, jumping, falling, fallingFront, looseLife } // standing = idle
+    private enum StateOfMovement { standing, running, jumping, falling, fallingFront, looseLife }
 
 
-    // Start is called before the first frame update
     private void Start()
     {
-        // Debug.Log("Hello World!");
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -31,23 +28,19 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
-    {
+    //private void FixedUpdate()
+    //{
         // Horizontal movement
         //float moveHorizontal = Input.GetAxisRaw("Horizontal"); //hier könnte man auch GetAxisRaw (nicht nur GetAxis) machen -> Player slided nicht mehr mit rest der Geschwindigkeit
         //Vector2 movement = new Vector2(moveHorizontal, 0f);
         //rigidbody2D.AddForce(movement * speed * 3);
-    }
+    //}
 
     private void Update()
     {
         // Horizontal movement
         moveHorizontal = Input.GetAxisRaw("Horizontal"); //hier könnte man auch GetAxisRaw (nicht nur GetAxis) machen -> Player slided nicht mehr mit rest der Geschwindigkeit
         rigidbody2D.velocity = new Vector2(moveHorizontal * speed, rigidbody2D.velocity.y);
-
-        // Alternative aus Vorlesung:
-        // Vector2 movement = new Vector2(moveHorizontal, 0f);
-        // rigidbody2D.AddForce(movement * speed * 1);
 
         // Jump - up and W key (wenn Player am Boden ist)
         if (Input.GetButtonDown("Jump") && PlayerIsOnTheGround())
@@ -60,22 +53,20 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void UpdateAnimation() //im tutorial UpdateAnimationState
+    private void UpdateAnimation()
     {
         StateOfMovement movementState;
 
-        // Anzeigen der verschiedenen-Sprites
+        // Anzeigen der verschiedenen Sprites
         if (moveHorizontal > 0f) // Rennen nach rechts
         {
             movementState = StateOfMovement.running;
             spriteRenderer.flipX = false;
-            walkSound.Play();
         }
         else if (moveHorizontal < 0f) // Rennen nach links
         {
             movementState = StateOfMovement.running;
             spriteRenderer.flipX = true;
-            walkSound.Play();
         }
         else // Stehen
         {
@@ -101,7 +92,7 @@ public class PlayerController : MonoBehaviour
         animator.SetInteger("movementState", (int)movementState);
     }
 
-    private bool PlayerIsOnTheGround() // im Tutorial: IsGrounded
+    private bool PlayerIsOnTheGround()
     {
         // eine zweite Box wird über dem Collider erzeugt (ersten zwei Argumente), bei der zweiten Box wird geschaut, ob sie sich mit irgendwas überschneidet (Boden)
         return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, ground); // schaut, ob player den Boden berührt

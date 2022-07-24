@@ -5,7 +5,6 @@ using UnityEngine;
 public class angryCloudBehaviour : MonoBehaviour
 {
     private Rigidbody2D rigidbody;
-    //private Vector2 cloudStart;
     [SerializeField] private Rigidbody2D player;
     [SerializeField] private float speed = 2f;
     private bool playerIsClose = false;

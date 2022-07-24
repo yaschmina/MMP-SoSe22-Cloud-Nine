@@ -39,7 +39,7 @@ public class PlayerDeath : MonoBehaviour
             rigidbody.MovePosition(point0);
 
         }
-        lifeCount.text = "My lifes:" + lives;
+        lifeCount.text = "My lives: " + lives;
         if (lives <= 0)
         {
             Die();
