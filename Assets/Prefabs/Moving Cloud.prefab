@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 497685317026371114}
   - component: {fileID: 497685317026371108}
   - component: {fileID: 497685317026371111}
+  - component: {fileID: 2078567337286108497}
   m_Layer: 6
   m_Name: Moving_Cloud
   m_TagString: Untagged
@@ -252,3 +253,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45dc5ccedc0c2417a821d7a1afce4839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2078567337286108497
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497685317026371112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5bd2fd362cf24269bdce3f2f572e2c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

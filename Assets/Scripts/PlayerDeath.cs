@@ -8,7 +8,7 @@ public class PlayerDeath : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rigidbody;
-    [SerializeField] private int lives = 3;
+    [SerializeField] public int lives = 3;
     [SerializeField] private Text lifeCount;
     [SerializeField] private AudioSource looseLifeSound;
 

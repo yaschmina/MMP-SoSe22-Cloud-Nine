@@ -9,6 +9,14 @@ public class HeartCollector : MonoBehaviour
 
     [SerializeField] private Text heartText;
     [SerializeField] private AudioSource collectedHeartSound;
+    [SerializeField] private AudioSource newLifeSound;
+    PlayerDeath playerDeath;
+
+    void Start()
+    {
+        GameObject player = GameObject.Find("Player");
+        playerDeath = player.GetComponent<PlayerDeath>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,8 +25,15 @@ public class HeartCollector : MonoBehaviour
             Destroy(collision.gameObject);
             collectedHearts++;
             collectedHeartSound.Play();
-            Debug.Log("Hearts: " + collectedHearts);
-            heartText.text = "Hearts: " + collectedHearts + " /10";
         }
+        if (collectedHearts >= 3)
+        {
+            playerDeath.lives += 1;
+            collectedHearts = 0;
+            newLifeSound.Play();
+            Debug.Log("New Life!");
+        }
+        Debug.Log("Hearts: " + collectedHearts);
+        heartText.text = "Hearts: " + collectedHearts + " /10";
     }
 }
