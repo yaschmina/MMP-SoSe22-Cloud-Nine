@@ -221,6 +221,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1179555422}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &16492111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,8 +366,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287747322
+  m_fontColor: {r: 0.98039216, g: 0.83137256, b: 0.5686275, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -525,8 +537,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287747322
+  m_fontColor: {r: 0.98039216, g: 0.83137256, b: 0.5686275, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -690,8 +702,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287747322
+  m_fontColor: {r: 0.98039216, g: 0.83137256, b: 0.5686275, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -822,8 +834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10, y: 66}
-  m_SizeDelta: {x: -700, y: -400}
+  m_AnchoredPosition: {x: -10, y: 164}
+  m_SizeDelta: {x: -200, y: -400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518873726
 MonoBehaviour:
@@ -854,8 +866,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287747322
+  m_fontColor: {r: 0.98039216, g: 0.83137256, b: 0.5686275, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -872,8 +884,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -978,17 +990,41 @@ MonoBehaviour:
     - Of course, I know the Scirocco! She must be as loud as the explosions that
       water geysers cause in Malta at summertime, after which she was named!
     CorrectAnswer: 1
-  - Question: "Her name is Scirocco. And you know what they say about the Scirocco\u2026."
+  - Question: 'Scirocco is as lively as the Mediterranean wind!  Oh yes, I also went
+      to the mechanic''s shop today to pick up my old-timer. Oh, care to guess the
+      model series? I''ll give you the following hint: "The ???, together with its
+      northern extension the North Atlantic Drift, is a warm and swift Atlantic ocean
+      ??? that originates in the ??? of Mexico and flows through the Straits of Florida
+      and up the eastern coastline of the United States then veers east near 36 latitude
+      (North Carolina)."'
     Answers:
-    - Of course, I know the Scirocco! She must be as wild as the Mediterranean wind
-      with hurricane speed that originates in the Sahara and reaches North Africa
-      and Southern Europe, after which she was named!
-    - Of course, I know the Scirocco! She must be as lovely as the meteorological
-      spectacle that for a couple of days a year provides diamond snow in the Alpine
-      regions of Italy, after which she was named!
-    - Of course, I know the Scirocco! She must be as loud as the explosions that
-      water geysers cause in Malta at summertime, after which she was named!
+    - "Obviously, that\u2019s the Volkswagen Golf series as in Gulf Stream!"
+    - "Obviously, that\u2019s the Ford Zephyr Golf series as in Zephyr Winds!"
+    - Obviously, that's the GMC Syclone series as in Cyclone Storms!
     CorrectAnswer: 1
+  - Question: The Volkswagen Golf is just great! However, I usually prefer to ride
+      my bike because I love to be in nature. Check this out, I was able to observe
+      and photograph these different types of clouds during my last vacation! *Takes
+      out Phone* This for instance is the cloud type that Harry Potter's flying broom
+      band is named after!
+    Answers:
+    - 'Cirrocumulus, wow! '
+    - Nimbostratus, amazing!
+    - Stratocumulus, great!
+    CorrectAnswer: 2
+  - Question: The Nimbus 2000 never lets our Potter down! I am often told that I
+      have my head in the clouds, haha. Well, I am a wandering soul. For me, there
+      is nothing better than simply traveling and getting to know other cultures.
+      My last trip was to Iceland, beautiful architecture, flora and fauna. There
+      I was also able to watch the Aurora Borealis....
+    Answers:
+    - So you were there between December to July ? I also want to go there at around
+      that time, the aurora borealis are a wonderful natural spectacle!
+    - So you were there between April to August ? I also want to go there at around
+      that time, the aurora borealis are a wonderful natural spectacle!
+    - So you were there between October to March? I also want to go there at around
+      that time, the aurora borealis are a wonderful natural spectacle!
+    CorrectAnswer: 3
   options:
   - {fileID: 1614025699}
   - {fileID: 1531957549}
@@ -1836,6 +1872,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985531896}
   m_CullTransparentMesh: 1
+--- !u!1 &1179555421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179555423}
+  - component: {fileID: 1179555422}
+  m_Layer: 0
+  m_Name: 'Audio '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1179555422
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179555421}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2505ede66e0024633a730cffea5b952b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1179555423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179555421}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 593.38745, y: 265.38074, z: -660.1493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183028689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,6 +2239,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1531957554}
         m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
         m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1179555422}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2342,6 +2517,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1614025704}
         m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
         m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1179555422}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -34,7 +34,8 @@ public class QuizManager : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +  );
     }
     
      void GameOver ()
@@ -50,6 +51,7 @@ public class QuizManager : MonoBehaviour
         score +=1;
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
+        
         
     }
 
@@ -81,7 +83,9 @@ public class QuizManager : MonoBehaviour
     {
         if (QnA.Count > 0)
         {
-        currentQuestion = Random.Range(0, QnA.Count);
+        //currentQuestion = Random.Range(0, QnA.Count);
+
+        //currentQuestion = QnA.Count[i];
 
         QuestionTxt.text = QnA[currentQuestion].Question;
         SetAnswers();
@@ -90,8 +94,12 @@ public class QuizManager : MonoBehaviour
         else
         {
         Debug.Log("Out of Questions");
-        GameOver();
-
+        //GameOver();
+        if (score >= 3) {
+             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+        } else {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+        }
         }
         
     }
