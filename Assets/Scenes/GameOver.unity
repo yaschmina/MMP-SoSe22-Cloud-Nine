@@ -345,8 +345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 936, y: -641}
-  m_SizeDelta: {x: -2129.455, y: -1328.9917}
+  m_AnchoredPosition: {x: 1547.1492, y: -924.3089}
+  m_SizeDelta: {x: -3351.753, y: -2010.1987}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &736303397
 MonoBehaviour:
@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 1144903262}
   - component: {fileID: 1144903261}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: gameOverText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 973, y: 537}
+  m_AnchoredPosition: {x: 1009, y: 537}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144903261
@@ -538,8 +538,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 300
-  m_fontSizeBase: 300
+  m_fontSize: 500
+  m_fontSizeBase: 500
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -647.73584, y: 0, z: -332.39325, w: -769.1358}
+  m_margin: {x: -647.73584, y: 0, z: -833.42206, w: -792.9945}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1143,8 +1143,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 424, y: -642}
-  m_SizeDelta: {x: -2137, y: -1331.4092}
+  m_AnchoredPosition: {x: 765.1626, y: -924.3132}
+  m_SizeDelta: {x: -3361.2917, y: -2010.2064}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005579485
 MonoBehaviour:
