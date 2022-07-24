@@ -18,8 +18,9 @@ public class QuizManager : MonoBehaviour
     int TotalQuestion = 0;
     public int score;
 
+    [SerializeField] private AudioSource wrongAnswerSound;
+    [SerializeField] private AudioSource correctAnswerSound;
 
-    
     public GameObject Quizpanel;
     public GameObject GoPanel;
 
@@ -51,8 +52,7 @@ public class QuizManager : MonoBehaviour
         score +=1;
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
-        
-        
+        correctAnswerSound.Play();
     }
 
     public void wrong()
@@ -60,8 +60,7 @@ public class QuizManager : MonoBehaviour
         //when you answer wrong
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
-
-
+        wrongAnswerSound.Play();
     }
 
     void SetAnswers()
