@@ -51,7 +51,7 @@ public class PlayerDeath : MonoBehaviour
     {
         rigidbody.bodyType = RigidbodyType2D.Static;
         animator.SetTrigger("death_trigger");
-        SceneManager.LoadScene(4); // ANPASSEN SZENENNUMMER
+        SceneManager.LoadScene("GameOver");
     }
 
     //private void RestartJumpNRunLevel() 

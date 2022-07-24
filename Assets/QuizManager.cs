@@ -96,7 +96,7 @@ public class QuizManager : MonoBehaviour
         Debug.Log("Out of Questions");
         //GameOver();
         if (score >= 3) {
-             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+             SceneManager.LoadScene(SceneManager.GetActiveScene("").buildIndex + 6);
         } else {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
         }
