@@ -20,9 +20,9 @@ public class HeartCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Heart")) // zerstört Heart, wenn Player mit diesem collidiert
+        if (collision.gameObject.CompareTag("Heart")) 
         {
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject); // zerstört Heart, wenn Player mit diesem collidiert
             collectedHearts++;
             collectedHeartSound.Play();
         }
@@ -34,6 +34,6 @@ public class HeartCollector : MonoBehaviour
             Debug.Log("New Life!");
         }
         Debug.Log("Hearts: " + collectedHearts);
-        heartText.text = "Hearts: " + collectedHearts + " /10";
+        heartText.text = "Hearts: " + collectedHearts;
     }
 }

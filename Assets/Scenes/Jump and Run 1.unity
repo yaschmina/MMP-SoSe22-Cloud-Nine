@@ -15512,7 +15512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43116cdc2edc940fa907a212bc06a8e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followPlayer: {fileID: 854399314}
+  player: {fileID: 854399314}
 --- !u!82 &1241526948
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17490,6 +17490,26 @@ PrefabInstance:
     - target: {fileID: 6719530234922774588, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719530234922774589, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719530235118084712, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 27.036
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719530235118084712, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -41.9904
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719530235118084712, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13.517944
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719530235118084712, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 19.257019
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df987dd9ee74381bd6bdc7e88641fa, type: 3}
