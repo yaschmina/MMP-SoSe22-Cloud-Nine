@@ -20,6 +20,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-
+    public void goToGame ()
+    {
+        SceneManager.LoadScene("Jump and Run 1");
+    }
    
 }
